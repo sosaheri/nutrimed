@@ -1,0 +1,51 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: nombre
+        field:
+          placeholder: Nombre
+          input_type: text
+          antlers: false
+          display: nombre
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: telefono
+        field:
+          placeholder: Teléfono
+          input_type: text
+          antlers: false
+          display: telefono
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: email
+        field:
+          placeholder: Email
+          input_type: text
+          antlers: false
+          display: email
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+      -
+        handle: mensaje
+        field:
+          placeholder: Mensaje
+          antlers: false
+          display: mensaje
+          type: textarea
+          icon: textarea
+          listable: hidden
+          instructions_position: above
+          visibility: visible

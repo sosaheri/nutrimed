@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="{{ site:short_locale }}">
+
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>{{ title ?? site:name }}</title>
+   <!-- Favicon Icon -->
+   <!-- <link rel="shortcut icon" href="images/favicon.ico"> -->
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="/css/bootstrap.min.css">
+   <!-- LOADING FONTS AND ICONS -->
+   <link rel="stylesheet" type="text/css" href="/rev/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
+   <link rel="stylesheet" type="text/css" href="/rev/fonts/font-awesome/css/font-awesome.css">
+   <!-- REVOLUTION STYLE SHEETS -->
+   <link rel="stylesheet" type="text/css" href="/rev/css/rs6.css">
+   <!-- Icons CSS -->
+   <link rel="stylesheet" href="/fonts/font-awesome/css/all.min.css">
+   <link rel="stylesheet" href="/fonts/themify-icons/themify-icons.css">
+   <link rel="stylesheet" href="/fonts/ionicons/ionicons.min.css">
+   <link rel="stylesheet" type="text/css" href="/fonts/flaticons/flaticon_mycollection.css">
+   <!-- Owl Carousel CSS -->
+   <link rel="stylesheet" href="/css/owl.carousel.min.css">
+   <!-- Magnefic Popup CSS -->
+   <link rel="stylesheet" href="/css/magnific-popup.min.css">
+   <!-- Animation CSS -->
+   <link rel="stylesheet" href="/css/animations.min.css">
+
+
+   <!--  Style CSS -->
+   <link rel="stylesheet" href="/css/style.css">
+   <!--  Responsive CSS -->
+   <link rel="stylesheet" href="/css/responsive.css">
+</head>
+
+<body>
+
+   <!--Loading-->
+   <!-- <div id="pq-loading">
+      <div id="pq-loading-center">
+         <img src="images/header-logo/logo.png" alt="loading">
+      </div>
+   </div> -->
+   <!--Loading-->
+
+   <!-- <header-start> -->
+   <header id="pq-header" class="pq-header-default">
+
+      <div class="pq-bottom-header">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-12">
+
+                {{ partial:nav }}
+
+               </div>
+            </div>
+         </div>
+      </div>
+   </header>
+   <!-- body-section-start -->
+   <!-- <header-end> -->
+
+    {{ template_content }}
+
+
+
+   <!-- body-section-end -->
+   <!-- <footer-start> -->
+   <footer class="pq-footer pq-footer-bg pq-footer-bg-img">
+      <div class="pq-footer-style-1">
+         <div class="pq-footer-top">
+            <div class="container">
+               <div class="row">
+                  <div class="col-lg-3 col-md-6 col-xl-3">
+                     <img src="/images/footer-logo/logo.png" class="pq-footer-logo" alt="nutritius-footer-logo">
+                     <p class="pq-footer-disc">Lorem ipsumn daminae, explorae sacturm trae suppor.</p>
+                     <div class="pq-footer-social">
+                        <ul>
+                           <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                           <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-xl-3">
+                     
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-xl-3">
+                     <div class="menu-useful-link-container">
+                        <ul class="menu">
+                           <li><a href="{{ route:nosotros }}">Sobre Nosotros</a></li>
+                           <li><a href="/#nutricion">Nutrición</a></li>
+                           <li><a href="/#medicina">Médicina</a></li>
+                           <li><a href="/recetas">Recetas</a></li>
+                           <li><a href="/blog">Blog</a></li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-xl-3">
+                     <h4 class="footer-title pq-footer-contact">Contactano</h4>
+                     <ul class="pq-contact">
+                        <li>
+                           <i class="fas fa-map-marker"></i>
+                           <span>Avenida, siempre viva <br>1278</span>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fas fa-phone"></i>
+                              <span>555 555 555</span>
+                           </a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="pq-copyright-footer">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-12 align-self-center">
+                     <span class="pq-copyright">Desarrollado por NutriMED</span>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </footer>
+   <!-- <footer-end> -->
+   <!--Back To Top start-->
+   <div id="back-to-top">
+      <div class="top" id="top">
+         <a id="pq-back-to-top" href="#" class="on">
+            <span class="pq-icon-up">
+               <i class="ion-ios-arrow-up"></i> </span>
+            <span class="pq-icon-up pq-icon-up-hover">
+               <i class="ion-ios-arrow-up"></i> </span>
+         </a>
+      </div>
+   </div>
+   <!--Back To Top End-->
+   <!--jquery js-->
+   <script src="/js/jquery.min.js"></script>
+   <!--bootstrap js-->
+   <script src="/js/bootstrap.min.js"></script>
+   <!--owl-carousal-->
+   <script src="/js/owl.carousel.min.js"></script>
+   <!--progress-bar js-->
+   <script src="/js/progressbar.js"></script>
+   <!--countTo js-->
+   <script src="/js/jquery.countTo.min.js"></script>
+   <!--Maginfic-Popup js-->
+   <script src="/js/jquery.magnific-popup.min.js"></script>
+   <!-- Rev-Slider -->
+   <script src="/rev/js/rbtools.min.js"></script>
+   <script src="/rev/js/rs6.min.js"></script>
+   <script src="/js/rev-custom.js"></script>
+   <!-- <isotope js> -->
+   <script src="/js/isotope.pkgd.min.js"></script>
+   <!--custom js-->
+   <!-- <script src="js/custom.js"></script> -->
+
+
+   <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+<script src="/vendor/statamic/frontend/js/helpers.js"></script>
+</body>
+</html>
+
+

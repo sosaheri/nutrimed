@@ -1,0 +1,52 @@
+   <div class="pq-breadcrumb" style="background-image:url('/images/blog/Breadcamp-image.jpg');">
+      <div class="container">
+         <div class="row align-items-center">
+            <div class="col-lg-8">
+               <nav aria-label="breadcrumb">
+                  <!-- <div class="pq-breadcrumb-title">
+                     <h1>{{ title }}</h1>
+                  </div> -->
+               </nav>
+            </div>
+            <div class="col-lg-4">
+               <div class="pq-breadcrumb-img text-right wow fadeInRight"></div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <section class="3-colume-grid">
+      <div class="container">
+         <div class="row">
+            <div class="col-xl-12">
+               <div class="pq-blog pq-blog-col-3">
+                  <div class="row">
+
+                    {{ collection:recetas }}
+
+                     <div class="col-lg-4">
+                        <div class="pq-blog-post pq-main-post-blog">
+                           <div class="pq-post-media">
+                              <img src="{{ feture_image }}" alt="{{ feture_image:alt }}" class="pq-post-img">
+                           </div>
+                           <div class="pq-blog-contain">
+                              
+                              <h5 class="pq-blog-title"><a href="{{ url }}">{{ title }}</a></h5>
+                              <!-- <div class="pq-blog-info no-format">
+                                 <p>{{ content | truncate:50}} </p>
+                              </div>
+                              <div class="pq-button-container">
+                                 <a class="pq-button pq-btn-link" href="{{ url }}">
+                                    <span class="pq-btn-text">Ver más</span>
+                                 </a>
+                              </div> -->
+                           </div>
+                        </div>
+                     </div>
+                    {{ /collection:recetas }}
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>

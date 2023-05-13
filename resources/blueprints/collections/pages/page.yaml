@@ -14,7 +14,7 @@ sections:
         handle: home_banner
         field:
           mode: list
-          container: assets
+          container: banner
           restrict: false
           allow_uploads: true
           show_filename: true
@@ -41,6 +41,7 @@ sections:
           display: Template
           localizable: true
   sidebar:
+    display: Sidebar
     fields:
       -
         handle: slug

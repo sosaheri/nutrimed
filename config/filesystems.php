@@ -61,6 +61,13 @@ return [
             'visibility' => 'public',
         ],
 
+       'banner' => [
+            'driver' => 'local',
+            'root' => public_path('assets/banner'),
+            'url' => '/assets/banner',
+            'visibility' => 'public',
+        ],
+
     ],
 
     /*

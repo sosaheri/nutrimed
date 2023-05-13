@@ -6,78 +6,27 @@
                   <span class="pq-section-sub-title">Ponte en contacto</span>
                   <h5 class="pq-section-title">Agenda una cita</h5>
         </div>
-         <div class="row align-items-center">
+         <div class="row">
             <div class="col-lg-6">
                   <div class="pq-map">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.5404230564404!2d-0.12174238407206386!3d51.5033006188236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604b900d26973%3A0x4291f3172409ea92!2slastminute.com%20London%20Eye!5e0!3m2!1sen!2sin!4v1672909498236!5m2!1sen!2sin"
-                            class="img-fluid" width="1920" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
+                     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3198.1366184499616!2d-4.4328568!3d36.71928!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72f7984596c30d%3A0xf877f82b1809e878!2zQy4gRG9uIFJpY2FyZG8sIDIsIDLCumMsIDI5MDA3IE3DoWxhZ2EsIFNwYWlu!5e0!3m2!1sen!2sve!4v1684000163985!5m2!1sen!2sve" 
+                     width="550" height="300" 
+                     style="border:0;" 
+                     allowfullscreen="" 
+                     loading="lazy" 
+                     referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </div>
             </div>
             <div class="col-lg-6 ps-xl-6">
                <div class="pq-section-title-style-1 ">
                   
                   
                </div>
-               
-               <form method="POST" action="{{ route:contact.send }}">
-                  {{ csrf_field }}
-                  <div class="row">
-                     <div class="col-md-6">
-                        <input size="40" placeholder="Nombre" type="text" name="your-name" required>
-                     </div>
-                     <div class="col-md-6">
-                        <input size="40" placeholder="Teléfono" type="text" name="your-Subject" required>
-                     </div>
-                     <div class="col-md-12">
-                        <input size="40" placeholder="Email" type="email" name="your-email" required>
-                     </div>
-                     <div class="col-md-12">
-                        <input size="40" placeholder="Tema" type="text" name="Subject" required>
-                     </div>
-                     <div class="col-md-12">
-                        <textarea cols="40" rows="10" placeholder="Mensaje" name="your-message"
-                           required></textarea>
-                     </div>
-                     <div class="col-md-12">
-                        <button class="pq-button" type="submit">Enviar</button>
-                        
-                     </div>
-                  </div>
-
-               <!-- {{ form:contacto js="alpine"}}
-               
-                  {{ if success }}
-                     <div class="bg-green-300 text-white p-2">
-                           {{ success }}
-                     </div>
-                  {{ else }}
-                     {{ if errors }}
-                           <div class="bg-red-300 text-white p-2">
-                              {{ errors }}
-                                 {{ value }}<br>
-                              {{ /errors }}
-                           </div>
-                     {{ /if }}
-               
-                     {{ fields }}
-                           <div class="p-2">
-                              
-                              <div class="p-1">{{ field }}</div>
-                              {{ if error }}
-                                 <p class="text-gray-500">{{ error }}</p>
-                              {{ /if }}
-                           </div>
-                     {{ /fields }}
-               
-                     <input type="text" class="honeypot" name="{{ honeypot ?? 'honeypot' }}">
-                     <button type="submit">Enviar</button>
-                  {{ /if }}
-               
-               {{ /form:contacto }} -->
-
-               </form>
+               <p>WS: <a href="https://wa.me/34662475552" target="_blank" rel="noopener noreferrer">+34 662 475 552</a></p>
+               <p>IG: <a href="http://www.instagram.com/nutrimed_nutrimed" target="_blank" rel="noopener noreferrer">@nutrimed_nutrimed</a></p>
+               <p>FB: <a href="https://www.facebook.com/NutriMED.NutriMED/" target="_blank" rel="noopener noreferrer">NutriMED.NutriMED</a></p>
+               <p>Email: <a href="mailto:servicios.nutrimed@gmail.com">servicios.nutrimed@gmail.com</a></p>
+               <p>Dirección: C. Don Ricardo, 2, (2ºC). 29007. Málaga. (Detrás del Corte Inglés y a 5 minutos de la estación de Metro Guadalmedina)</p>               
             </div>
          </div>
       </div>

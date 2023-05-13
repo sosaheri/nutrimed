@@ -45,4 +45,24 @@ sections:
           required: true
           validate:
             - required
+      -
+        handle: tipos
+        field:
+          type: terms
+          taxonomies:
+            - tipos
+          display: Tipos
+          mode: select
+      -
+        handle: author
+        field:
+          input_type: text
+          antlers: false
+          default: Admin
+          display: Autor
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          visibility: visible
 title: Receta

@@ -1,6 +1,8 @@
 title: Recetas
 template: recetas/show
 layout: layout
+taxonomies:
+  - tipos
 revisions: false
 route: '/recetas/{slug}'
 date: true

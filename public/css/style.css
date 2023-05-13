@@ -6442,3 +6442,42 @@ li.menu-item {
 .honeypot {
     display: none;
 }
+
+.wa-float {
+    position: fixed;
+    width: 55px;
+    height: 60px;
+    bottom: 100px;
+    right: 25px;
+    background-color: #7fb82d;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+
+.wa-float:hover {
+    background: var(--dark-color);
+}
+
+.my-wa-float {
+    margin-top: 16px;
+}
+
+.categories span {
+    display: inline-block;
+    background-color: #7fb82d;
+    color: white;
+    padding-left: 10px;
+        padding-right: 10px;
+}
+
+.categories span a{
+    color: white;
+}
+
+.categories span:hover {
+    background-color: black;
+}
